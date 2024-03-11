@@ -10,6 +10,6 @@ import lombok.Setter;
 @Entity
 public class City extends BaseModel{
     @Id
-    private Long id;
+    private int id;
 
 }
